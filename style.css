@@ -13,8 +13,9 @@ body {
 .container {
   text-align: center;
   width: 100%;
-  max-width: 400px;
+  max-width: 400px;   /* biar konten nggak kepanjangan */
   padding: 20px;
+  margin: auto;
 }
 
 .profile-pic {
@@ -39,11 +40,11 @@ p {
 
 .link-box {
   display: block;
-  width: 100%;
+  max-width: 300px;    /* batas panjang tombol */
+  margin: 10px auto;   /* auto = center horizontal */
   padding: 15px;
-  margin: 10px 0;
-  background: #000;   /* box hitam */
-  color: #fff;        /* tulisan putih */
+  background: #000;    /* box hitam */
+  color: #fff;         /* tulisan putih */
   font-weight: bold;
   border-radius: 10px;
   text-decoration: none;
